@@ -21,6 +21,14 @@ module.exports = {
         host: process.env.CONTENTFUL_HOST,
       },
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        typekit: {
+          id: process.env.GATSBY_ADOBE_FONT_PROJECT_ID,
+        },
+      },
+    },
     "gatsby-plugin-sharp",
     "gatsby-plugin-image",
     "gatsby-transformer-sharp",

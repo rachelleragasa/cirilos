@@ -46,8 +46,8 @@ const fontWeights = {
 }
 
 const fonts = {
-  text: '"DM Sans", sans-serif',
-  heading: '"DM Sans", sans-serif',
+  text: '"Semplicita Pro Light", sans-serif',
+  heading: '"Semplicita Pro Bold", sans-serif',
   mono: "DM Mono, Menlo, monospace",
 }
 
