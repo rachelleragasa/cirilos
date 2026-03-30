@@ -4,8 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Filipino Restaurant | London | Cable Street | Cirilo Filipino Kainan",
-  description:
-    "Experience the rich, bold flavors of the Philippines at Cirilos. Traditional Filipino dishes crafted from generations-old recipes in San Francisco.",
+  description: "A family kitchen. Filipino food, done Cirilo&apos;s way.",
 };
 
 function RootLayout({
