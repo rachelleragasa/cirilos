@@ -54,7 +54,6 @@ export default function Nav() {
             </a>
           </div>
 
-          {/* Mobile menu button */}
           <button
             type="button"
             onClick={() => setIsOpen(!isOpen)}

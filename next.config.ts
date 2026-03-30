@@ -3,9 +3,11 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  basePath: "/cirilos",
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || "",
   images: {
     unoptimized: true,
+    qualities: [25, 50, 75],
   },
 };
 

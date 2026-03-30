@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AboutImg from "@/assets/images/cirilo-juliet.jpg";
 
 function About() {
   return (
@@ -43,10 +44,11 @@ function About() {
           <div className="relative" aria-hidden="true">
             <div className="rounded-2xl aspect-[4/5] w-full max-w-sm mx-auto relative overflow-hidden bg-black">
               <Image
-                src="/images/cirilo-juliet.jpg"
+                src={AboutImg}
                 fill
                 className="object-cover"
                 alt="Picture of the owners"
+                loading="eager"
               />
             </div>
           </div>

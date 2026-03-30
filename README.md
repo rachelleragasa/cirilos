@@ -1,27 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cirilos
+
+A restaurant website built as a static site.
+
+## Tech Stack
+
+### Frameworks & Libraries
+
+| Technology | Version |
+|---|---|
+| [Next.js](https://nextjs.org) | 16.2.1 |
+| [React](https://react.dev) | 19 |
+| [TypeScript](https://www.typescriptlang.org) | 5 |
+| [Tailwind CSS](https://tailwindcss.com) | 4 |
+| [Node.js](https://nodejs.org) | 24 |
+
+### Tooling
+
+| Tool | Purpose |
+|---|---|
+| [VS Code](https://code.visualstudio.com) | Editor |
+| [Claude Code](https://claude.ai/code) | AI coding assistant |
+| [ESLint](https://eslint.org) | Linting |
+| [PostCSS](https://postcss.org) | CSS processing |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is configured for static export (deployed to GitHub Pages):
 
-## Deploy on Vercel
+```bash
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployment is automated via GitHub Actions. Pushing to the `main` branch triggers the [deploy workflow](.github/workflows/deploy.yml), which:
+
+1. Builds the static site (`npm run build`)
+2. Uploads the `out/` directory as a Pages artifact
+3. Deploys to GitHub Pages

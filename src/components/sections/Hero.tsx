@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import HeroImg from "../../../public/images/hero.jpg";
+import HeroImg from "@/assets/images/hero.jpg";
 
 function Hero() {
   return (
@@ -13,7 +13,6 @@ function Hero() {
         alt="Photo of filipino food"
         fill
         className="object-cover"
-        quality={60}
         priority
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       />
