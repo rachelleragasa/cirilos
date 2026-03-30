@@ -1,4 +1,3 @@
-import { assetPath } from "@/lib/asset-path";
 import Link from "next/link";
 
 const dishes = [
@@ -76,7 +75,7 @@ function Menu() {
 
         <div className="text-center mt-12">
           <Link
-            href={`${assetPath("/menu.pdf")}`}
+            href="/menu.pdf"
             className="inline-flex items-center gap-2 border border-black/20 text-black font-medium px-10 py-5 rounded-full hover:bg-black hover:border-black hover:text-white transition-colors duration-200 text-lg"
             aria-label="View full menu"
             target="_blank"
