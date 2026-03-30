@@ -22,6 +22,7 @@ A restaurant website built as a static site.
 | [Claude Code](https://claude.ai/code) | AI coding assistant |
 | [ESLint](https://eslint.org) | Linting |
 | [PostCSS](https://postcss.org) | CSS processing |
+| [Umami](https://umami.is) | Analytics |
 
 ## Getting Started
 
