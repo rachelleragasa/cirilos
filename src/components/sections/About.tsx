@@ -24,15 +24,19 @@ function About() {
             <div className="space-y-4 text-black/65 leading-relaxed text-lg">
               <p>
                 Cirilo Ragasa was born in the Philippines and moved to the UK in
-                1985. After years working as a freelance chef, he opened Cirilo
-                Filipino Kainan on Cable Street in 2008, and has been running it
-                alongside his wife ever since.
+                1985. After over 20 years as a Chef at establishments such as,
+                The Selfridge Hotel, Trader Vics in Park Lane, RS Hispaniola and
+                the London Clinic, he decided to open &quot;Cirilo&apos;s&quot;
+                on Cable Street in 2008, and has been running it alongside his
+                wife ever since.
               </p>
               <p>
                 The food isn&apos;t an attempt to replicate what you&apos;d find
-                in the Philippines. It&apos;s Cirilo&apos;s take on the Filipino
+                in the Philippines (as over 7000 islands lend dishes to having
+                regional nuances). It&apos;s Cirilo&apos;s take on the Filipino
                 dishes he grew up with, familiar flavours cooked the way he
-                cooks them. Lighter than you might expect, and better for it.
+                cooks them, with a close eye on nutrition and small adaptions to
+                modernise traditional recipes to western palates.
               </p>
               <p>
                 This is a family restaurant, in the truest sense. One kitchen,
