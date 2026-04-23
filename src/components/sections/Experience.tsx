@@ -89,19 +89,15 @@ function Experience() {
             <dl className="text-white/60 text-lg space-y-2">
               <div className="flex justify-between gap-4">
                 <dt>Tuesday</dt>
-                <dd className="text-white/80">6:00 – 10:30 PM</dd>
+                <dd className="text-white/80">6:00 – 10 PM</dd>
               </div>
               <div className="flex justify-between gap-4">
                 <dt>Wednesday</dt>
-                <dd className="text-white/80">5:30 – 10:30 PM</dd>
+                <dd className="text-white/80">5:30 – 10 PM</dd>
               </div>
               <div className="flex justify-between gap-4">
-                <dt>Thursday – Saturday</dt>
-                <dd className="text-white/80">12:00 – 10:30 PM</dd>
-              </div>
-              <div className="flex justify-between gap-4">
-                <dt>Sunday</dt>
-                <dd className="text-white/80">12:00 – 10:00 PM</dd>
+                <dt>Thursday – Sunday</dt>
+                <dd className="text-white/80">12:00 – 10 PM</dd>
               </div>
               <div className="flex justify-between gap-4">
                 <dt>Monday</dt>
